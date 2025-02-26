@@ -1,0 +1,23 @@
+x = int(200)
+y = float(20.5)
+z = complex(3 + 7j)
+saints = list (("James", "Laurent", "Mary"))
+a = tuple(("apple", "banana", "avocado"))
+b = dict(name="Peter", age=21)
+var = set({1,2,3})
+d = bool(True)
+
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(saints))
+print(type(a))
+print(type(b))
+print(type(var))
+print(type(d))
+
+q = float(x)
+g = int(y)
+
+print("the float from an integer is",q)
+print("the integer from an float is",g)
